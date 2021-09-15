@@ -4,8 +4,8 @@ html{
 .navbar .nav-link {
   font-size:14px;
   text-transform:uppercase;
-  padding-left:1rem !important;
-  padding-right:1rem !important;
+  /* padding-left:1rem !important; */
+  /* padding-right:1rem !important; */
 }
 
 .navbar .nav-item.active {
@@ -175,7 +175,7 @@ html{
 }
 
 body {
-  overflow-x:hidden;
+  /* overflow-x:hidden; */
   background-color: #F6F5F5;
   background-attachment: fixed;
   margin:0;
