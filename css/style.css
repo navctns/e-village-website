@@ -309,10 +309,10 @@ body {
   padding:0;
 }
 
-#showcase{
-  /* height: 2vh; */
+/* #showcase{
+  height: 2vh;
   margin:0;
-}
+} */
 
 /* .showcase-overlay{
   background: rgba(0,0,0,0.65);
@@ -332,6 +332,9 @@ body {
   margin:0;
   padding:0;
   left:0;
+}
+.news-updates{
+  margin-top:5em;
 }
 
 .carousel-caption{
