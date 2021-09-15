@@ -1,0 +1,188 @@
+
+#page-header {
+  height: 200px;
+  /* background:url('../img/image1.jpg'); */
+  background-image: radial-gradient(circle at 50% 56%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 13%,transparent 13%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 75% 75%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 26%,transparent 26%, transparent 57%,transparent 57%, transparent 100%),radial-gradient(circle at 43% 6%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 29%,transparent 29%, transparent 92%,transparent 92%, transparent 100%),radial-gradient(circle at 39% 61%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 44%,transparent 44%, transparent 83%,transparent 83%, transparent 100%),radial-gradient(circle at 5% 14%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 46%,transparent 46%, transparent 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(10, 22, 107),rgb(133, 136, 202));
+
+  background-position:0 -360px;
+  background-attachment:fixed;
+  color:#fff;
+  border-bottom:1px #eee solid;
+  padding-top:50px;
+}
+
+/* .about-img {
+  margin-top:-50px;
+} */
+#design-heading,.about-bg {
+  position:relative;
+  background-image: radial-gradient(circle at 82% 60%, rgba(59, 59, 59,0.06) 0%, rgba(59, 59, 59,0.06) 69%,transparent 69%, transparent 100%),radial-gradient(circle at 36% 0%, rgba(185, 185, 185,0.06) 0%, rgba(185, 185, 185,0.06) 59%,transparent 59%, transparent 100%),radial-gradient(circle at 58% 82%, rgba(183, 183, 183,0.06) 0%, rgba(183, 183, 183,0.06) 17%,transparent 17%, transparent 100%),radial-gradient(circle at 71% 32%, rgba(19, 19, 19,0.06) 0%, rgba(19, 19, 19,0.06) 40%,transparent 40%, transparent 100%),radial-gradient(circle at 77% 5%, rgba(31, 31, 31,0.06) 0%, rgba(31, 31, 31,0.06) 52%,transparent 52%, transparent 100%),radial-gradient(circle at 96% 80%, rgba(11, 11, 11,0.06) 0%, rgba(11, 11, 11,0.06) 73%,transparent 73%, transparent 100%),radial-gradient(circle at 91% 59%, rgba(252, 252, 252,0.06) 0%, rgba(252, 252, 252,0.06) 44%,transparent 44%, transparent 100%),radial-gradient(circle at 52% 82%, rgba(223, 223, 223,0.06) 0%, rgba(223, 223, 223,0.06) 87%,transparent 87%, transparent 100%),radial-gradient(circle at 84% 89%, rgba(160, 160, 160,0.06) 0%, rgba(160, 160, 160,0.06) 57%,transparent 57%, transparent 100%),linear-gradient(90deg, rgb(46, 75, 248),rgb(166, 255, 237));
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  text-align:center;
+  color:#323232;
+  min-height: 75vh;
+}
+.about-section{
+  background-image: radial-gradient(circle at 82% 60%, rgba(59, 59, 59,0.06) 0%, rgba(59, 59, 59,0.06) 69%,transparent 69%, transparent 100%),radial-gradient(circle at 36% 0%, rgba(185, 185, 185,0.06) 0%, rgba(185, 185, 185,0.06) 59%,transparent 59%, transparent 100%),radial-gradient(circle at 58% 82%, rgba(183, 183, 183,0.06) 0%, rgba(183, 183, 183,0.06) 17%,transparent 17%, transparent 100%),radial-gradient(circle at 71% 32%, rgba(19, 19, 19,0.06) 0%, rgba(19, 19, 19,0.06) 40%,transparent 40%, transparent 100%),radial-gradient(circle at 77% 5%, rgba(31, 31, 31,0.06) 0%, rgba(31, 31, 31,0.06) 52%,transparent 52%, transparent 100%),radial-gradient(circle at 96% 80%, rgba(11, 11, 11,0.06) 0%, rgba(11, 11, 11,0.06) 73%,transparent 73%, transparent 100%),radial-gradient(circle at 91% 59%, rgba(252, 252, 252,0.06) 0%, rgba(252, 252, 252,0.06) 44%,transparent 44%, transparent 100%),radial-gradient(circle at 52% 82%, rgba(223, 223, 223,0.06) 0%, rgba(223, 223, 223,0.06) 87%,transparent 87%, transparent 100%),radial-gradient(circle at 84% 89%, rgba(160, 160, 160,0.06) 0%, rgba(160, 160, 160,0.06) 57%,transparent 57%, transparent 100%),linear-gradient(90deg, rgb(46, 75, 248),rgb(166, 255, 237));
+  margin:3em 0 0 0;
+  min-height: 75vh;
+}
+
+.light-overlay {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(255,255,255,0.65);
+}
+
+.page-top{
+  background-image: radial-gradient(circle at 50% 56%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 13%,transparent 13%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 75% 75%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 26%,transparent 26%, transparent 57%,transparent 57%, transparent 100%),radial-gradient(circle at 43% 6%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 29%,transparent 29%, transparent 92%,transparent 92%, transparent 100%),radial-gradient(circle at 39% 61%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 44%,transparent 44%, transparent 83%,transparent 83%, transparent 100%),radial-gradient(circle at 5% 14%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 46%,transparent 46%, transparent 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(10, 22, 107),rgb(133, 136, 202));
+}
+
+#main-footer {
+  /* background:#000; */
+  /* color:#fff; */
+  background-color: #F3F1F5;
+  color:#323232;
+}
+
+.card.details-page{
+  background: transparent;
+}
+
+.details-list{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* list-style: none; */
+  margin-left:20%;
+}
+.details-list li{
+  text-align: left;
+}
+.card.contact-card{
+  box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+  margin:2em 0;
+
+  /* background: transparent; */
+  background-image: radial-gradient(circle at 50% 56%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 13%,transparent 13%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 75% 75%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 26%,transparent 26%, transparent 57%,transparent 57%, transparent 100%),radial-gradient(circle at 43% 6%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 29%,transparent 29%, transparent 92%,transparent 92%, transparent 100%),radial-gradient(circle at 39% 61%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 44%,transparent 44%, transparent 83%,transparent 83%, transparent 100%),radial-gradient(circle at 5% 14%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 46%,transparent 46%, transparent 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(10, 22, 107),rgb(133, 136, 202));
+  border: 1px solid  radial-gradient(circle at 50% 56%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 13%,transparent 13%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 75% 75%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 26%,transparent 26%, transparent 57%,transparent 57%, transparent 100%),radial-gradient(circle at 43% 6%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 29%,transparent 29%, transparent 92%,transparent 92%, transparent 100%),radial-gradient(circle at 39% 61%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 44%,transparent 44%, transparent 83%,transparent 83%, transparent 100%),radial-gradient(circle at 5% 14%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 46%,transparent 46%, transparent 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(10, 22, 107),rgb(133, 136, 202));
+
+  /* color: #323232; */
+  color:#fafafa;
+  margin-right:10%;
+  top:10vh;
+  left:70vw;
+  /* display: fixed; */
+  position:fixed;
+
+  display:flex;
+  justify-content:center;
+}
+
+.card.contact-card-horz{
+  background-image: radial-gradient(circle at 50% 56%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 13%,transparent 13%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 75% 75%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 26%,transparent 26%, transparent 57%,transparent 57%, transparent 100%),radial-gradient(circle at 43% 6%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 29%,transparent 29%, transparent 92%,transparent 92%, transparent 100%),radial-gradient(circle at 39% 61%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 44%,transparent 44%, transparent 83%,transparent 83%, transparent 100%),radial-gradient(circle at 5% 14%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 46%,transparent 46%, transparent 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(10, 22, 107),rgb(133, 136, 202));
+  border: 1px solid  radial-gradient(circle at 50% 56%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 13%,transparent 13%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 75% 75%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 26%,transparent 26%, transparent 57%,transparent 57%, transparent 100%),radial-gradient(circle at 43% 6%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 29%,transparent 29%, transparent 92%,transparent 92%, transparent 100%),radial-gradient(circle at 39% 61%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 44%,transparent 44%, transparent 83%,transparent 83%, transparent 100%),radial-gradient(circle at 5% 14%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 46%,transparent 46%, transparent 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(10, 22, 107),rgb(133, 136, 202));
+  color:#fafafa;
+  display: none;
+  justify-content: center;
+}
+/* .card-body.details-card{
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+} */
+/* .details-inner-item{
+  display: flex;
+  justify-content: center;
+} */
+
+.contact-card-horz  ul.list-unstyled{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:1em;
+  align-items: center;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.card.contact-card  ul.list-unstyled{
+  /* display:flex;
+  flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  display: grid;
+  grid-template-columns: 1fr;
+}
+/* ul.list-unstyled{
+  display: flex;
+} */
+
+/* COMMON */
+
+.phone-link{
+  display: flex;
+  gap:0.5em;
+  align-items: center;
+  text-decoration: none;
+  /* color:#fafafa; */
+  color:#323232;
+  margin:0 0.5em;
+}
+.phone-link:hover,
+.phone-link:focus{
+  text-decoration: none;
+  color:#323232;
+  opacity: 0.8;
+}
+
+.navbar .nav-link {
+  font-size:14px;
+  text-transform:uppercase;
+  padding-left:1rem !important;
+  padding-right:1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left:#444 3px solid;
+}
+.navbar{
+  /* background-color: #548CA8; */
+  background-color: #F3F1F5;
+  /* background-color: #D3E0EA; */
+}
+.contact-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fafafa;
+}
+
+@media (max-width:768px) {
+  .navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-nav{
+    display: flex;
+    align-items: center;
+  }
+  .card.contact-card{
+    position:relative;
+    display: flex;
+    justify-content: center;
+  }
+  #design-heading,.about-bg{
+   min-height:120vh;
+  }
+  .card.contact-card-horz{
+    display: flex;
+  }
+  .card.contact-card{
+    display: none;
+  }
+}

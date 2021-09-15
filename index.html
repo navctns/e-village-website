@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- CSS only -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+  <title>E-Village</title>
+</head>
+<body id="main" onscroll="scrollUpdate()">
+  <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"> -->
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top" id="top-nav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">E-Village</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="#main" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-info" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#designing" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="share-header-section" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="share-header-section" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#design-home-heading" class="nav-link">Graphic Designs</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://wa.me/917034763747" class="phone-link"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="tel:5551234567" class="phone-link"><i class="fas fa-phone-alt"></i>(555)123-4567</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- SHOWCASE SECTION - DESKTOP -->
+    <!-- <section id="home-icons" class="py-5"> -->
+    <section id="home-icons" class="showcase-bg">
+      <div class="light-overlay">
+        <div class="container">
+          <div class="row services-display">
+            <div class="col-md-4 mb-4 text-center">
+              <div class="card showcase-card" onmouseenter="showServicesOnMouseEnter(event)" onmouseleave="hideServicesOnMouseLeave(event)">
+                <img src="img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4>Education Services</h4>
+                  <i class="fas fa-chevron-down" onclick="showServices(event)"></i>
+                  <ul class="list-group">
+                    <li class="list-group-item">Employment Registration</li>
+                    <li class="list-group-item"><a href="income-certificate-info.html">Income certificate</a></li>
+                    <li class="list-group-item">Ration Card Services</li>
+                    <li class="list-group-item">Ticket Booking</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+                  <i class="fas fa-chevron-up" onclick="hideServices(event)"></i>
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-md-4 mb-4 text-center">
+              <div class="card showcase-card" onmouseenter="showServicesOnMouseEnter(event)" onmouseleave="hideServicesOnMouseLeave(event)">
+                <img src="img/brett-jordan-ZoZJLgAIvGc-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4>Government Services</h4>
+                  <i class="fas fa-chevron-down" onclick="showServices(event)"></i>
+                  <ul class="list-group">
+                    <li class="list-group-item">Employment Registration</li>
+                    <li class="list-group-item">Income certificate</li>
+                    <li class="list-group-item">Ration Card Services</li>
+                    <li class="list-group-item">Ticket Booking</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+                  <i class="fas fa-chevron-up" onclick="hideServices(event)"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4 text-center">
+              <div class="card showcase-card" onmouseenter="showServicesOnMouseEnter(event)" onmouseleave="hideServicesOnMouseLeave(event)">
+                <img src="img/keila-hotzel-lFmuWU0tv4M-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4>Other Services</h4>
+                  <i class="fas fa-chevron-down" onclick="showServices(event)"></i>
+                  <ul class="list-group">
+                    <li class="list-group-item"><a href="design-portfolio.html">Graphic Designing</a></li>
+                    <li class="list-group-item">Income certificate</li>
+                    <li class="list-group-item">Ration Card Services</li>
+                    <li class="list-group-item">Ticket Booking</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+                  <i class="fas fa-chevron-up" onclick="hideServices(event)"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- SHOWCASE SECTION - MOBILE -->
+          <div id="showcaseCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item lg carousel-image-1 active">
+                <div class="container">
+                  <!-- <div class="carousel-caption">
+                    <h5>Plus One അഡ്മിഷൻ രെജിസ്ട്രേഷൻ</h5>
+                    <a href="" class="btn btn-outline-primary flat">Show Detais</a>
+                  </div> -->
+                  <div class="card showcase-card" onmouseenter="showServicesOnMouseEnter(event)" onmouseleave="hideServicesOnMouseLeave(event)">
+                    <img src="img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4>Education Services</h4>
+                      <i class="fas fa-chevron-down" onclick="showServices(event)"></i>
+                      <ul class="list-group">
+                        <li class="list-group-item">Employment Registration</li>
+                        <li class="list-group-item"><a href="income-certificate-info.html">Income certificate</a></li>
+                        <li class="list-group-item">Ration Card Services</li>
+                        <li class="list-group-item">Ticket Booking</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                      <i class="fas fa-chevron-up" onclick="hideServices(event)"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- SHOWCASE II -->
+              <div class="carousel-item carousel-image-2 active">
+                <div class="carousel-inner">
+                  <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                      <div class="card showcase-card" onmouseenter="showServicesOnMouseEnter(event)" onmouseleave="hideServicesOnMouseLeave(event)">
+                        <img src="img/brett-jordan-ZoZJLgAIvGc-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h4>Government Services</h4>
+                          <i class="fas fa-chevron-down" onclick="showServices(event)"></i>
+                          <ul class="list-group">
+                            <li class="list-group-item">Employment Registration</li>
+                            <li class="list-group-item">Income certificate</li>
+                            <li class="list-group-item">Ration Card Services</li>
+                            <li class="list-group-item">Ticket Booking</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                          </ul>
+                          <i class="fas fa-chevron-up" onclick="hideServices(event)"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#showcaseCarousel" data-slide="prev" class="carousel-control-prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#showcaseCarousel" data-slide="next" class="carousel-control-next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+  <!-- NEWS UPDATES SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item carousel-image-1 active">
+        <div class="container">
+          <div class="carousel-caption">
+            <h5>Plus One അഡ്മിഷൻ രെജിസ്ട്രേഷൻ</h5>
+            <a href="" class="btn btn-outline-primary flat">Show Detais</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-image-2">
+        <div class="container">
+          <div class="carousel-caption">
+            <h5>PSC Registration</h5>
+            <a href="" class="btn  btn-outline-primary flat">Show Detais</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-image-3">
+        <div class="container">
+          <div class="carousel-caption">
+            <h5>NEET Results</h5>
+            <a href="" class="btn btn-outline-primary flat">Show Detais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  </section>
+    <!-- ABOUT SECTION -->
+  <section id="about-info" class="p-0">
+    <div class="light-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center text-left about-content">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam consequatur suscipit blanditiis enim accusamus aliquam ea cum nostrum impedit nulla.</p>
+            <a href="about.html" class="btn btn-transparent btn-colored btn-lg about-btn">Learn More</a>
+          </div>
+          <div class="col-md-6 about-img">
+            <img src="img/laptop.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section id="design-home-heading" class="p-0">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="container parallax-header pt-5">
+                <h2>Graphic Design Porftolio</h2>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  <!--DESIGN PORTFOLIO TABS-->
+  <section class="design-portfolio">
+    <!-- <div class="blue-overlay"> -->
+      <div class="container m-0 p-0">
+
+        <!-- <h3>Design Portfolio</h3> -->
+        <ul class="nav nav-pills mb-3 gallery-nav py-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <!-- <button class="btn btn-outline-primary btn-colored  active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Poster Designs</button> -->
+            <!-- <button class="nav-link gallery-btn active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Poster Designs</button> -->
+            <button class="btn btn-transparent not-transparent btn-colored btn-lg btn-md active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Poster Designs</button>
+            <!-- <a href="" class="btn btn-outline-primary btn-colored active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Poster Designs</button> -->
+  
+            <!-- <a href="about.html" class="btn btn-outline-primary btn-colored btn-lg">Learn More</a> -->
+  
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="btn btn-transparent not-transparent btn-colored  btn-lg btn-md" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Wedding Cards</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="btn btn-transparent not-transparent btn-colored btn-lg btn-md" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Gifs</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="btn btn-transparent not-transparent btn-colored btn-lg btn-md" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Logos</button>
+          </li>
+        </ul>
+        <div class="tab-content animated fadeIn" id="pills-tabContent">
+          <div class="tab-pane active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+             <!--POSTER DESIGNS -->
+             <div class="container m-0 design-items">
+              <!-- <h1 class="text-center">Photo Gallery</h1> -->
+              <!-- <p class="text-center">Check out our photos</p> -->
+              <div class="row mb-4">
+                <div class="col-md-4 portfolio-img-contain">
+                  <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                    data-gallery="img-gallery" data-height="560" data-width="560" class="test-popup-link gal-img popup-with-move-anim">
+                      <img src="img/brianna-santellan-TXlvDNMu2LI-unsplash.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4 portfolio-img-contain">
+                  <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                    data-gallery="img-gallery" data-height="560" data-width="560">
+                      <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                      <!-- <img src="" alt="" class="img-fluid"> -->
+                    </a>
+                </div>
+                <div class="col-md-4 portfolio-img-contain">
+                  <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                    data-gallery="img-gallery" data-height="560" data-width="560">
+                      <!-- <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid"> -->
+                      <img src="img/brianna-santellan-TXlvDNMu2LI-unsplash.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-md-4 portfolio-img-contain">
+                  <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                    data-gallery="img-gallery" data-height="561" data-width="561">
+                      <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4 portfolio-img-contain">
+                  <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                    data-gallery="img-gallery" data-height="561" data-width="561">
+                      <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4 portfolio-img-contain">
+                  <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                    data-gallery="img-gallery" data-height="561" data-width="561">
+                      <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--WEDDING-->
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                       <!--POSTER DESIGNS -->
+                       <div class="container">
+                        <!-- <h1 class="text-center">Photo Gallery</h1> -->
+                        <!-- <p class="text-center">Check out our photos</p> -->
+                        <div class="row mb-4">
+                          <div class="col-md-4 portfolio-img-contain">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                              data-gallery="img-gallery" data-height="560" data-width="560" class="test-popup-link gal-img popup-with-move-anim">
+                                <img src="img/andy-art-t-WkBEOQngs-unsplash.jpg" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="col-md-4 portfolio-img-contain">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                              data-gallery="img-gallery" data-height="560" data-width="560">
+                                <!-- <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid"> -->
+                                <img src="img/andy-art-t-WkBEOQngs-unsplash.jpg" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="col-md-4 portfolio-img-contain">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                              data-gallery="img-gallery" data-height="560" data-width="560">
+                                <!-- <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid"> -->
+                                <img src="img/andy-art-t-WkBEOQngs-unsplash.jpg" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                        </div>
+                        <div class="row mb-4 ">
+                          <div class="col-md-4 portfolio-img-contain">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                              data-gallery="img-gallery" data-height="561" data-width="561">
+                                <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="col-md-4 portfolio-img-contain">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                              data-gallery="img-gallery" data-height="561" data-width="561">
+                                <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="col-md-4 portfolio-img-contain">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                              data-gallery="img-gallery" data-height="561" data-width="561">
+                                <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                       <!--POSTER DESIGNS -->
+                       <div class="container">
+                        <!-- <h1 class="text-center">Photo Gallery</h1> -->
+                        <!-- <p class="text-center">Check out our photos</p> -->
+                        <div class="row mb-4">
+                          <div class="col-md-4 portfolio-img-contain">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                              data-gallery="img-gallery" data-height="560" data-width="560" class="test-popup-link gal-img popup-with-move-anim">
+                                <img src="img/brianna-santellan-TXlvDNMu2LI-unsplash.jpg" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="col-md-4 portfolio-img-contain">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                              data-gallery="img-gallery" data-height="560" data-width="560">
+                                <!-- <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid"> -->
+                                <img src="img/brianna-santellan-TXlvDNMu2LI-unsplash.jpg" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="col-md-4 portfolio-img-contain">
+                            <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox"
+                              data-gallery="img-gallery" data-height="560" data-width="560">
+                                <!-- <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid"> -->
+                                <img src="img/brianna-santellan-TXlvDNMu2LI-unsplash.jpg" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+        </div>
+    <!-- </div> -->
+
+    </div>
+
+  </section>
+
+  <!--NEWS LETTER -->
+  <!-- <section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+      <h1>Sign Up For Our News letter</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusamus libero ipsum voluptates. Magnam sit aperiam et blanditiis, nulla reprehenderit?</p>
+
+      <div class="row">
+        <div class="col-md-4 justify-content-center">
+            <input type="text" class="form-control mb-5 mr-2" placeholder="Enter Name">
+        </div>
+        <div class="col-md-4 justify-content-center">
+
+            <input type="text" class="form-control mb-5" placeholder="Enter Email">
+        </div>
+        <div class="col-md-4 justify-content-start">
+          <button class="btn btn-primary mb-2 form-control">Submit</button>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4 ">
+    <div class="light-overlay">
+      <div class="container mt-3">
+        <div class="row footer-mob">
+          <h4>Contact Us</h4>
+        </div>
+        <div class="row footer-mob">
+          <a href="https://wa.me/917034763747" class="phone-link"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+          <a href="tel:5551234567" class="phone-link"><i class="fas fa-phone-alt"></i>(555)123-4567</a>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>Copyright &copy; E-Village <span id="year"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--LINK-->
+   <!-- <a href="#" id="yt-auto" class="btn btn-default" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/loFtozxZG0s" >VIDEO</a> -->
+  <!-- VIDEO MODEL II -->
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <div>
+          <!-- <iframe width="100%" height="350" src=""></iframe> -->
+          <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--- ALTER METHOD -->
+<!-- <a href="#" class="btn btn-default" data-toggle="modal" data-target="#videoModal2" data-video="http://www.youtube.com/embed/loFtozxZG0s">VIDEO</a> -->
+
+<div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div>
+                    <iframe width="100%" height="350" src=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="app.js"></script>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- <script
+			  src="https://code.jquery.com/jquery-3.5.1.min.js"
+			  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+			  crossorigin="anonymous"> -->
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+
+<!-- Magnific Popup core JS file -->
+<!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
+  <script>
+    //Get the current Year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    $('.carousel').carousel ({
+      interval:6000,
+      pause:'hover',
+    });
+    
+    const showcaseCards = document.getElementsByClassName('showcase-card');
+    //add event listeners
+    // for(let i=0;i<showcaseCards.length;i++){
+    //   //Set Event Listeners
+    //   showcaseCards.addEventListener('mouseenter', function showServicesOnMouseEnter(event){
+    //     //show services when mouse enter on card
+    //     //Hide other list groups
+    //     console.log('hover-on-showcase-box');
+    //     const allLists = document.getElementsByClassName('list-group');
+    //     for(let i=0;i<allLists.length;i++){
+    //       allLists[i].style.display = 'none';
+    //       //show top image
+    //       allLists[i].parentElement.previousElementSibling.style.display = 'block';
+    //       //hide and show arrow buttons
+    //       allLists[i].previousElementSibling.style.display = 'block';
+    //       //hide arrow-top button
+    //       allLists[i].nextElementSibling.style.display = 'none';
+    //     }
+    //     console.log('on Mouseenter',event.originalTarget);
+    //     //get list group
+    //     // const listGroup = event.originalTarget.getElementsByClassName('list-group');
+    //     if(event.originalTarget){
+    //     listGroup = event.originalTarget.getElementsByClassName('list-group');
+    //     }else if(event.target){
+    //     listGroup = event.target.getElementsByClassName('list-group');
+    //     console.log('list-group-chrome', listGroup);
+    //     }
+    //     console.log(listGroup, listGroup[0]);
+    //     listGroup[0].style.display = 'block';
+    //     //get card top image
+    //     const topImageEl = event.originalTarget.getElementsByClassName('card-img-top');
+    //     //hide card top image
+    //     topImageEl[0].style.display = 'none';
+    //     //get arrow button element
+    //     const arrowBtnEl = event.originalTarget.getElementsByClassName('fas');
+    //     //hide arrow button element
+    //     arrowBtnEl[0].style.display = 'none';
+    //   });
+    // }
+    // document.body.addEventListener('click',function(){
+    //   //Hide other list groups
+    //   const allLists = document.getElementsByClassName('list-group');
+    //   for(let i=0;i<allLists.length;i++){
+    //     allLists[i].style.display = 'none';
+    //     //show top image
+    //     allLists[i].parentElement.previousElementSibling.style.display = 'block';
+    //     //hide and show arrow buttons
+    //     allLists[i].previousElementSibling.style.display = 'block';
+    //     //hide arrow-top button
+    //     allLists[i].nextElementSibling.style.display = 'none';
+    //   }
+    // });
+    //magnificPopup
+    // $('.test-popup-link').magnificPopup({
+    //   type: 'image'
+    //   // other options
+    // });
+
+    //lightbox
+
+    // $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    // // $('.gal-img').on('click', '[data-toggle="lightbox"]', function(event) {
+    //             event.preventDefault();
+    //             $(this).ekkoLightbox();
+    //         });
+
+    //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+    // function autoPlayYouTubeModal(){
+    //   //var trigger = $("body").find('[data-toggle="modal"]');
+    //   var trigger = $("#yt-auto")
+    //   trigger.click(function() {
+    //     var theModal = $(this).data("target" ),
+    //     videoSRC = $(this).attr( "data-theVideo" ),
+    //     videoSRCauto = videoSRC+"?autoplay=1" ;
+    //     $(theModal+' iframe').attr('src', videoSRCauto);
+    //     $(theModal+' button.close').click(function () {
+    //         $(theModal+' iframe').attr('src', videoSRC);
+    //     });
+    //   });
+    // }
+    //
+    // $(document).ready(function(){
+    //   autoPlayYouTubeModal();
+    // });
+
+    ///////
+    // autoPlayYouTubeModal();
+
+//FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+// function autoPlayYouTubeModal() {
+//     // var trigger = $("body").find('[data-toggle="modal"]');
+//     // trigger.click(function () {
+//     $('.video').click(function () {
+
+//         var theModal = $(this).data("bs-target"),
+//             videoSRC = $(this).attr("data-video"),
+//             videoSRCauto = videoSRC + "?autoplay=1";
+//         $(theModal + ' iframe').attr('src', videoSRCauto);
+//         $(theModal + ' button.close').click(function () {
+//             $(theModal + ' iframe').attr('src', videoSRC);
+//         });
+//     });
+// }
+
+
+  </script>
+</body>
+</html>
