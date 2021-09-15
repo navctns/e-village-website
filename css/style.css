@@ -61,16 +61,19 @@ html{
   /* background: url('../img/image1.jpg'); */
   /* background: url('../img/daniel-funes-fuentes-TyLw3IQALMs-unsplash.jpg'); */
   background-size:cover;
+  background-attachment:fixed;
 }
 
 .carousel-image-2 {
   /* background: url('../img/my-life-through-a-lens-bq31L0jQAjU-unsplash.jpg'); */
   background-size:cover;
+  background-attachment:fixed;
 }
 
 .carousel-image-3 {
   /* background: url('../img/natalie-pedigo-wJK9eTiEZHY-unsplash.jpg'); */
   background-size:cover;
+  background-attachment:fixed;
 }
 
 #design-home-heading{
@@ -110,21 +113,22 @@ html{
 #design-home-heading{
   min-height: 150px;
   background-size:cover;
-
+  background-attachment:fixed;
 }
 #about-info{
   min-height: 60vh;
   background-size:cover;
-
+  background-attachment:fixed;
 }
 .showcase-bg{
   /* margin:3em 0 0 0; */
   min-height: 75vh;
   background-size:cover;
-
+  background-attachment:fixed;
 }
 #main-footer{
   min-height: 20vh;
+  background-attachment:fixed;
 }
 
 
@@ -317,7 +321,7 @@ body {
 .service-showcase{
   margin:3em 0 0 0;
   min-height: 75vh;
-
+  background-attachment:fixed;
 }
 
 .carousel-caption{
