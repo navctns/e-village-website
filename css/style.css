@@ -479,6 +479,9 @@ section {
   /* .services-display{
     display: none;
   } */
+  .service-item{
+    display: flex;
+  }
   .showcase-bg{
     min-height: 250vh;
     margin:0;
