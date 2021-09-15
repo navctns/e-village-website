@@ -109,13 +109,19 @@ html{
 }
 #design-home-heading{
   min-height: 150px;
+  background-size:cover;
+
 }
 #about-info{
   min-height: 60vh;
+  background-size:cover;
+
 }
 .showcase-bg{
   /* margin:3em 0 0 0; */
   min-height: 75vh;
+  background-size:cover;
+
 }
 #main-footer{
   min-height: 20vh;
@@ -130,6 +136,8 @@ html{
   width:100%;
   height:100%;
   background:rgba(255,255,255,0.65);
+  background-size:cover;
+
 }
 .blue-overlay{
   display: flex;
@@ -137,13 +145,15 @@ html{
   background:rgba(255,255,255,0.65);
   width:100%;
   height:100%;
+  background-size:cover;
+
 }
 .dark-overlay{
   width:100%;
   height:100%;
   background:rgba(0,0,0,0.26);
   min-height: 150px;
-
+  background-size:cover;
 }
 
 #video-play{
@@ -165,6 +175,7 @@ body {
   background-color: #F6F5F5;
   background-attachment: fixed;
   margin:0;
+  padding:0;
 }
 
 /* ABOUT PAGE */
