@@ -23,7 +23,6 @@ html{
   /* background-color: #548CA8; */
   /* background-color: #0A81AB; */
   background-image: radial-gradient(circle at 50% 56%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 13%,transparent 13%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 75% 75%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 26%,transparent 26%, transparent 57%,transparent 57%, transparent 100%),radial-gradient(circle at 43% 6%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 29%,transparent 29%, transparent 92%,transparent 92%, transparent 100%),radial-gradient(circle at 39% 61%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 44%,transparent 44%, transparent 83%,transparent 83%, transparent 100%),radial-gradient(circle at 5% 14%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 46%,transparent 46%, transparent 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(10, 22, 107),rgb(133, 136, 202));
-  
 
 }
 .carousel-item.lg{
@@ -61,26 +60,26 @@ html{
   /* background: url('../img/image1.jpg'); */
   /* background: url('../img/daniel-funes-fuentes-TyLw3IQALMs-unsplash.jpg'); */
   background-size:cover;
-  background-attachment:fixed;
+  /*  */
 }
 
 .carousel-image-2 {
   /* background: url('../img/my-life-through-a-lens-bq31L0jQAjU-unsplash.jpg'); */
   background-size:cover;
-  background-attachment:fixed;
+  /*  */
 }
 
 .carousel-image-3 {
   /* background: url('../img/natalie-pedigo-wJK9eTiEZHY-unsplash.jpg'); */
   background-size:cover;
-  background-attachment:fixed;
+  
 }
 
 #design-home-heading{
   position:relative;
   min-height:150px;
   background:url('../img/lights.jpg');
-  background-attachment:fixed;
+  
   background-repeat:no-repeat;
   text-align:center;
   color:#fff;
@@ -97,7 +96,7 @@ html{
   /* background: url('../img/anton-maksimov-juvnsky-wrkNQmhmdvY-unsplash.jpg'); */
   /* background-image: radial-gradient(circle at 19% 90%, rgba(190, 190, 190,0.04) 0%, rgba(190, 190, 190,0.04) 17%,transparent 17%, transparent 100%),radial-gradient(circle at 73% 2%, rgba(78, 78, 78,0.04) 0%, rgba(78, 78, 78,0.04) 94%,transparent 94%, transparent 100%),radial-gradient(circle at 45% 2%, rgba(18, 18, 18,0.04) 0%, rgba(18, 18, 18,0.04) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 76% 60%, rgba(110, 110, 110,0.04) 0%, rgba(110, 110, 110,0.04) 34%,transparent 34%, transparent 100%),radial-gradient(circle at 68% 56%, rgba(246, 246, 246,0.04) 0%, rgba(246, 246, 246,0.04) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 71% 42%, rgba(156, 156, 156,0.04) 0%, rgba(156, 156, 156,0.04) 47%,transparent 47%, transparent 100%),radial-gradient(circle at 46% 82%, rgba(247, 247, 247,0.04) 0%, rgba(247, 247, 247,0.04) 39%,transparent 39%, transparent 100%),radial-gradient(circle at 50% 47%, rgba(209, 209, 209,0.04) 0%, rgba(209, 209, 209,0.04) 45%,transparent 45%, transparent 100%),linear-gradient(90deg, rgb(84, 36, 210),rgb(44, 27, 154)); */
   background-image: radial-gradient(circle at 82% 60%, rgba(59, 59, 59,0.06) 0%, rgba(59, 59, 59,0.06) 69%,transparent 69%, transparent 100%),radial-gradient(circle at 36% 0%, rgba(185, 185, 185,0.06) 0%, rgba(185, 185, 185,0.06) 59%,transparent 59%, transparent 100%),radial-gradient(circle at 58% 82%, rgba(183, 183, 183,0.06) 0%, rgba(183, 183, 183,0.06) 17%,transparent 17%, transparent 100%),radial-gradient(circle at 71% 32%, rgba(19, 19, 19,0.06) 0%, rgba(19, 19, 19,0.06) 40%,transparent 40%, transparent 100%),radial-gradient(circle at 77% 5%, rgba(31, 31, 31,0.06) 0%, rgba(31, 31, 31,0.06) 52%,transparent 52%, transparent 100%),radial-gradient(circle at 96% 80%, rgba(11, 11, 11,0.06) 0%, rgba(11, 11, 11,0.06) 73%,transparent 73%, transparent 100%),radial-gradient(circle at 91% 59%, rgba(252, 252, 252,0.06) 0%, rgba(252, 252, 252,0.06) 44%,transparent 44%, transparent 100%),radial-gradient(circle at 52% 82%, rgba(223, 223, 223,0.06) 0%, rgba(223, 223, 223,0.06) 87%,transparent 87%, transparent 100%),radial-gradient(circle at 84% 89%, rgba(160, 160, 160,0.06) 0%, rgba(160, 160, 160,0.06) 57%,transparent 57%, transparent 100%),linear-gradient(90deg, rgb(46, 75, 248),rgb(166, 255, 237));
-  background-attachment:fixed;
+  
   background-repeat:no-repeat;
   text-align:center;
   color:#323232;
@@ -112,23 +111,25 @@ html{
 }
 #design-home-heading{
   min-height: 150px;
-  background-size:cover;
-  background-attachment:fixed;
+  /* background-size:cover; */
+  
 }
 #about-info{
   min-height: 60vh;
-  background-size:cover;
-  background-attachment:fixed;
+  /* background-size:cover; */
+  
 }
 .showcase-bg{
   /* margin:3em 0 0 0; */
   min-height: 75vh;
-  background-size:cover;
-  background-attachment:fixed;
+  /* background-size:cover; */
+  width: 100%;
+  overflow: hidden;
+  
 }
 #main-footer{
   min-height: 20vh;
-  background-attachment:fixed;
+  
 }
 
 
@@ -140,7 +141,7 @@ html{
   width:100%;
   height:100%;
   background:rgba(255,255,255,0.65);
-  background-size:cover;
+  /* background-size:cover; */
 
 }
 .blue-overlay{
@@ -149,7 +150,7 @@ html{
   background:rgba(255,255,255,0.65);
   width:100%;
   height:100%;
-  background-size:cover;
+  /* background-size:cover; */
 
 }
 .dark-overlay{
@@ -157,14 +158,14 @@ html{
   height:100%;
   background:rgba(0,0,0,0.26);
   min-height: 150px;
-  background-size:cover;
+  /* background-size:cover; */
 }
 
 #video-play{
   position:relative;
   min-height:200px;
   background:url('../img/media.jpg');
-  background-attachment:fixed;
+  
   background-repeat:no-repeat;
   text-align:center;
   color:#fff;
@@ -175,7 +176,7 @@ html{
 }
 
 body {
-  /* overflow-x:hidden; */
+  overflow-x:hidden;
   background-color: #F6F5F5;
   background-attachment: fixed;
   margin:0;
@@ -187,7 +188,7 @@ body {
   height: 200px;
   background:url('../img/image1.jpg');
   background-position:0 -360px;
-  background-attachment:fixed;
+  
   color:#fff;
   border-bottom:1px #eee solid;
   padding-top:50px;
@@ -305,12 +306,13 @@ body {
   display: flex;
   align-items: center;
   margin:0;
+  padding:0;
 }
 
-/* #showcase{
-  height: 2vh;
+#showcase{
+  /* height: 2vh; */
   margin:0;
-} */
+}
 
 /* .showcase-overlay{
   background: rgba(0,0,0,0.65);
@@ -321,7 +323,15 @@ body {
 .service-showcase{
   margin:3em 0 0 0;
   min-height: 75vh;
-  background-attachment:fixed;
+  
+}
+.showcase-container{
+  width:100%;
+  overflow: hidden;
+  background-size: cover;
+  margin:0;
+  padding:0;
+  left:0;
 }
 
 .carousel-caption{
@@ -357,6 +367,8 @@ body {
 section {
   margin-left: 0;
   margin-right: 0;
+  min-width:100vw;
+  overflow: hidden;
 }
 
 /* ACCORDION TABS */
