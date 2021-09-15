@@ -476,7 +476,7 @@ section {
     width:10em;
   }
   .services-display{
-    display: none;
+    /* display: none; */
   }
   #showcaseCarousel{
     margin: 2em 0;
