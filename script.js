@@ -2,12 +2,14 @@ function showServices(event, fromEl){
     //Hide other list groups
     const allLists = document.getElementsByClassName('list-group');
     for(let i=0;i<allLists.length;i++){
+      //Hide list group
       allLists[i].style.display = 'none';
-      //show top image
-      allLists[i].parentElement.previousElementSibling.style.display = 'block';
+      //hide top image
+      allLists[i].parentElement.previousElementSibling.style.display = 'none';
       //hide and show arrow buttons
+      //Display the list-show button
       allLists[i].previousElementSibling.style.display = 'block';
-      //hide arrow-top button
+      //hide arrow-top button(list hide button)
       allLists[i].nextElementSibling.style.display = 'none';
     }
     console.log('all-lists', allLists);

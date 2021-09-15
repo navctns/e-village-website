@@ -14,7 +14,8 @@ app = Vue.createApp({
             {
                 id:3,
                 content:'PSC Registrations'
-            }
+            },
+            
         ]
       }
     },
