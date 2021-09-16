@@ -185,7 +185,10 @@
   }
   .details-list{
     margin-left: 0;
-    padding-left:1em;
+    /* padding-left:1em; */
+  }
+  .details-list li{
+    margin:1em;
   }
   .card.contact-card{
     position:relative;
