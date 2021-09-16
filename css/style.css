@@ -537,7 +537,7 @@ section {
     z-index: 10; */
   }
   .btn-md{
-    width:10; 
+    width:10em; 
   }
   #main-footer{
     min-height: 24vh;
