@@ -185,6 +185,7 @@
   }
   .details-list{
     margin-left: 0;
+    padding:0;
   }
   .card.contact-card{
     position:relative;
