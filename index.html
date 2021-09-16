@@ -96,7 +96,7 @@
     <div class="light-overlay">
       <div class="container">
         <div class="row services-display">
-          <div class="col-md-4 mb-4 text-center">
+          <div class="col-md-4 services-box-col text-center">
             <div class="card showcase-card" onmouseenter="showServicesOnMouseEnter(event)" onmouseleave="hideServicesOnMouseLeave(event)">
               <img src="img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -113,7 +113,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4 text-center">
+          <div class="col-md-4 services-box-col text-center">
             <div class="card showcase-card" onmouseenter="showServicesOnMouseEnter(event)" onmouseleave="hideServicesOnMouseLeave(event)">
               <img src="img/brett-jordan-ZoZJLgAIvGc-unsplash.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -130,7 +130,7 @@
               </div>
             </div>
          </div>
-          <div class="col-md-4 mb-4 text-center">
+          <div class="col-md-4 services-box-col text-center">
             <div class="card showcase-card" onmouseenter="showServicesOnMouseEnter(event)" onmouseleave="hideServicesOnMouseLeave(event)">
               <img src="img/keila-hotzel-lFmuWU0tv4M-unsplash.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -367,19 +367,6 @@
   </footer>
   <!-- VIDEO MODAL -->
 
-
-  <!--LINK-->
-   <!-- <a href="#" id="yt-auto" class="btn btn-default" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/loFtozxZG0s" >VIDEO</a> -->
-  <!-- VIDEO MODEL II -->
-
-
-<!--- ALTER METHOD -->
-<!-- <a href="#" class="btn btn-default" data-toggle="modal" data-target="#videoModal2" data-video="http://www.youtube.com/embed/loFtozxZG0s">VIDEO</a> -->
-
-
-
-
-
   <!-- JavaScript Bundle with Popper -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
   <script src="https://unpkg.com/vue@next"></script>
@@ -410,109 +397,6 @@
     });
     
     const showcaseCards = document.getElementsByClassName('showcase-card');
-    //add event listeners
-    // for(let i=0;i<showcaseCards.length;i++){
-    //   //Set Event Listeners
-    //   showcaseCards.addEventListener('mouseenter', function showServicesOnMouseEnter(event){
-    //     //show services when mouse enter on card
-    //     //Hide other list groups
-    //     console.log('hover-on-showcase-box');
-    //     const allLists = document.getElementsByClassName('list-group');
-    //     for(let i=0;i<allLists.length;i++){
-    //       allLists[i].style.display = 'none';
-    //       //show top image
-    //       allLists[i].parentElement.previousElementSibling.style.display = 'block';
-    //       //hide and show arrow buttons
-    //       allLists[i].previousElementSibling.style.display = 'block';
-    //       //hide arrow-top button
-    //       allLists[i].nextElementSibling.style.display = 'none';
-    //     }
-    //     console.log('on Mouseenter',event.originalTarget);
-    //     //get list group
-    //     // const listGroup = event.originalTarget.getElementsByClassName('list-group');
-    //     if(event.originalTarget){
-    //     listGroup = event.originalTarget.getElementsByClassName('list-group');
-    //     }else if(event.target){
-    //     listGroup = event.target.getElementsByClassName('list-group');
-    //     console.log('list-group-chrome', listGroup);
-    //     }
-    //     console.log(listGroup, listGroup[0]);
-    //     listGroup[0].style.display = 'block';
-    //     //get card top image
-    //     const topImageEl = event.originalTarget.getElementsByClassName('card-img-top');
-    //     //hide card top image
-    //     topImageEl[0].style.display = 'none';
-    //     //get arrow button element
-    //     const arrowBtnEl = event.originalTarget.getElementsByClassName('fas');
-    //     //hide arrow button element
-    //     arrowBtnEl[0].style.display = 'none';
-    //   });
-    // }
-    // document.body.addEventListener('click',function(){
-    //   //Hide other list groups
-    //   const allLists = document.getElementsByClassName('list-group');
-    //   for(let i=0;i<allLists.length;i++){
-    //     allLists[i].style.display = 'none';
-    //     //show top image
-    //     allLists[i].parentElement.previousElementSibling.style.display = 'block';
-    //     //hide and show arrow buttons
-    //     allLists[i].previousElementSibling.style.display = 'block';
-    //     //hide arrow-top button
-    //     allLists[i].nextElementSibling.style.display = 'none';
-    //   }
-    // });
-    //magnificPopup
-    // $('.test-popup-link').magnificPopup({
-    //   type: 'image'
-    //   // other options
-    // });
-
-    //lightbox
-
-    // $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    // // $('.gal-img').on('click', '[data-toggle="lightbox"]', function(event) {
-    //             event.preventDefault();
-    //             $(this).ekkoLightbox();
-    //         });
-
-    //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
-    // function autoPlayYouTubeModal(){
-    //   //var trigger = $("body").find('[data-toggle="modal"]');
-    //   var trigger = $("#yt-auto")
-    //   trigger.click(function() {
-    //     var theModal = $(this).data("target" ),
-    //     videoSRC = $(this).attr( "data-theVideo" ),
-    //     videoSRCauto = videoSRC+"?autoplay=1" ;
-    //     $(theModal+' iframe').attr('src', videoSRCauto);
-    //     $(theModal+' button.close').click(function () {
-    //         $(theModal+' iframe').attr('src', videoSRC);
-    //     });
-    //   });
-    // }
-    //
-    // $(document).ready(function(){
-    //   autoPlayYouTubeModal();
-    // });
-
-    ///////
-    // autoPlayYouTubeModal();
-
-//FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
-// function autoPlayYouTubeModal() {
-//     // var trigger = $("body").find('[data-toggle="modal"]');
-//     // trigger.click(function () {
-//     $('.video').click(function () {
-
-//         var theModal = $(this).data("bs-target"),
-//             videoSRC = $(this).attr("data-video"),
-//             videoSRCauto = videoSRC + "?autoplay=1";
-//         $(theModal + ' iframe').attr('src', videoSRCauto);
-//         $(theModal + ' button.close').click(function () {
-//             $(theModal + ' iframe').attr('src', videoSRC);
-//         });
-//     });
-// }
-
 
   </script>
 </body>
