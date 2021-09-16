@@ -52,6 +52,10 @@
 .card.details-page{
   background: transparent;
 }
+.card-header{
+  text-align: left;
+  padding-left: 8em;
+}
 
 .details-list{
   display: flex;
