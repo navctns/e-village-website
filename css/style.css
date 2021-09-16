@@ -519,7 +519,7 @@ section {
     display: flex;
   }
   .showcase-bg{
-    min-height: 180vh;
+    min-height: 200vh;
     margin:0;
   }
   #showcaseCarousel{
