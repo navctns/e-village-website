@@ -181,10 +181,10 @@
     padding-left:0;
   }
   .card-body h4{
-    font-size: 16px;
+    font-size: 18px;
   }
   .details-list{
-    margin-left: 0;
+    margin-left: 10%;
     /* padding-left:1em; */
   }
   .details-list li{
