@@ -175,6 +175,12 @@
     display: flex;
     align-items: center;
   }
+
+  .card-header{
+    text-align: center;
+    padding:0;
+  }
+
   .card.contact-card{
     position:relative;
     display: flex;
@@ -189,4 +195,5 @@
   .card.contact-card{
     display: none;
   }
+
 }
