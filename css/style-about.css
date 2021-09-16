@@ -183,6 +183,9 @@
   .card-body h4{
     font-size: 12px;
   }
+  .details-list{
+    margin-left: 0;
+  }
   .card.contact-card{
     position:relative;
     display: flex;
