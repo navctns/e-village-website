@@ -461,7 +461,7 @@ section {
 }
 
 .services-box-col{
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 /* .tab-content{
     background: url('../img/brian-lundquist-I3qLDIdlOho-unsplash.jpg');
@@ -519,7 +519,7 @@ section {
     display: flex;
   }
   .showcase-bg{
-    min-height: 230vh;
+    min-height: 220vh;
     margin:0;
   }
   #showcaseCarousel{
