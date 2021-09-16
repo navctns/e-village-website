@@ -334,7 +334,7 @@ body {
   left:0;
 }
 .news-updates{
-  margin-top:5em;
+  margin-top:2em;
 }
 
 .carousel-caption{
@@ -342,7 +342,6 @@ body {
   justify-content: center;
   gap:1em;
   align-items: center;
-
 }
 .fa-whatsapp-square{
   color:#25D366;
@@ -483,6 +482,8 @@ section {
   .carousel-caption{
     display: flex;
     flex-direction: column;
+    gap:0.5em;
+    font-size:14px;
   }
   .carousel-item{
     height: 160px;
