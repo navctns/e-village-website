@@ -482,8 +482,8 @@ section {
   .carousel-caption{
     display: flex;
     flex-direction: column;
-    gap:0.5em;
-    font-size:14px;
+    gap:0;
+    font-size:12px;
   }
   .carousel-item{
     height: 160px;
