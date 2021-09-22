@@ -2,8 +2,8 @@ html{
   scroll-behavior: smooth;
 }
 .navbar .nav-link {
-  font-size:14px;
-  text-transform:uppercase;
+  font-size:16px;
+  /* text-transform:uppercase; */
   /* padding-left:1rem !important; */
   /* padding-right:1rem !important; */
 }
@@ -11,6 +11,23 @@ html{
 .navbar .nav-item.active {
   border-left:#444 3px solid;
 }
+.fa-bars{
+  color:#323232;
+}
+.nav-item a{
+  color:#323232; 
+  margin:0 1em;
+}
+.navbar .nav-item a{
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+.nav-item .nav-link:focus,
+.nav-item .nav-link:hover{
+  background-image: radial-gradient(circle at 50% 56%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 13%,transparent 13%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 75% 75%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 26%,transparent 26%, transparent 57%,transparent 57%, transparent 100%),radial-gradient(circle at 43% 6%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 29%,transparent 29%, transparent 92%,transparent 92%, transparent 100%),radial-gradient(circle at 39% 61%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 44%,transparent 44%, transparent 83%,transparent 83%, transparent 100%),radial-gradient(circle at 5% 14%, hsla(16,0%,59%,0.1) 0%, hsla(16,0%,59%,0.1) 46%,transparent 46%, transparent 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(10, 22, 107),rgb(133, 136, 202));
+  color:#fafafa;
+}
+
 .navbar{
   /* background-color: #548CA8; */
   background-color: #F3F1F5;
@@ -128,7 +145,7 @@ html{
   
 }
 #main-footer{
-  min-height: 20vh;
+  min-height: 24vh;
   
 }
 
@@ -536,7 +553,7 @@ section {
     display: flex;
   }
   .showcase-bg{
-    min-height: 200vh;
+    min-height: 220vh;
     margin:0;
   }
   #showcaseCarousel{
